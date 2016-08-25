@@ -18,6 +18,11 @@ Diff install for npm
 node diffInstall.js <productName>
 ```
 
+依赖安装的时候，已经将 `registry` 改为 `https://registry.npm.taobao.org`，如果想用其他源的话，可以通过下面的命令：
+
+```sh
+node diffInstall.js <productName> http://registry.npm.xxx.com
+```
 
 
 ## 问题
