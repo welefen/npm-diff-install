@@ -186,7 +186,7 @@ function run(){
       continue;
     }
 
-    var registry = process.argv[3] || 'http://registry.npm.qiwoo.org';
+    var registry = process.argv[3] || 'https://registry.npm.taobao.org';
     var cmd = 'npm install ' + name + '@' + dependencies[name] + ' --registry=' + registry;
     console.log(cmd);
     child_process.execSync(cmd);
